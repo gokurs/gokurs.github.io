@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.36" />
+
+
+
+<link rel="canonical" href="https://gokurs.github.io/kurse/udemy_gokurs01/">
+
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>Einführung in Go - Online Kurse zu Go (Golang)</title>
+    
+<meta name="description" content="Ein Grundlagen Workshop für Googles Programmiersprache Go Dieser Kurs ist ein spannender Workshop, welcher Dir die Grundlagen von Googles Programmiersprache Go vorstellt. Anhand von vielen geführten Übungen lernst Du diese Sprache praktisch kennen. Am Ende kannst Du ohne große Anstrengung Go Anweisungen schreiben und Go Code verstehen.Der Kurs richtet sich an alle, die Go kennen lernen möchten oder Grundlagen in Go benötigen. Dieser Workshop bringt dich auf spielerische Weise soweit, dass Du danach auch an Go Projekten mitarbeiten kannst.">
+
+<meta property="og:title" content="Einführung in Go - Online Kurse zu Go (Golang)">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gokurs.github.io/kurse/udemy_gokurs01/">
+<meta property="og:image" content="https://gokurs.github.io/images/default.png">
+<meta property="og:site_name" content="Online Kurse zu Go (Golang)">
+<meta property="og:description" content="Ein Grundlagen Workshop für Googles Programmiersprache Go Dieser Kurs ist ein spannender Workshop, welcher Dir die Grundlagen von Googles Programmiersprache Go vorstellt. Anhand von vielen geführten Übungen lernst Du diese Sprache praktisch kennen. Am Ende kannst Du ohne große Anstrengung Go Anweisungen schreiben und Go Code verstehen.Der Kurs richtet sich an alle, die Go kennen lernen möchten oder Grundlagen in Go benötigen. Dieser Workshop bringt dich auf spielerische Weise soweit, dass Du danach auch an Go Projekten mitarbeiten kannst.">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="Online Kurse zu Go (Golang)">
+<meta name="twitter:url" content="https://gokurs.github.io/kurse/udemy_gokurs01/">
+<meta name="twitter:title" content="Einführung in Go - Online Kurse zu Go (Golang)">
+<meta name="twitter:description" content="Ein Grundlagen Workshop für Googles Programmiersprache Go Dieser Kurs ist ein spannender Workshop, welcher Dir die Grundlagen von Googles Programmiersprache Go vorstellt. Anhand von vielen geführten Übungen lernst Du diese Sprache praktisch kennen. Am Ende kannst Du ohne große Anstrengung Go Anweisungen schreiben und Go Code verstehen.Der Kurs richtet sich an alle, die Go kennen lernen möchten oder Grundlagen in Go benötigen. Dieser Workshop bringt dich auf spielerische Weise soweit, dass Du danach auch an Go Projekten mitarbeiten kannst.">
+<meta name="twitter:image" content="https://gokurs.github.io/images/default.png">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id":"https://gokurs.github.io/"
+    },
+    "headline": "Einführung in Go - Online Kurse zu Go (Golang)",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://gokurs.github.io/images/default.png",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "2018-03-06T21:56:27JST",
+    "dateModified": "2018-03-06T21:56:27JST",
+    "author": {
+      "@type": "Person",
+      "name": "Online Kurse zu Go (Golang)"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Online Kurse zu Go (Golang)",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gokurs.github.io/images/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "Ein Grundlagen Workshop für Googles Programmiersprache Go Dieser Kurs ist ein spannender Workshop, welcher Dir die Grundlagen von Googles Programmiersprache Go vorstellt. Anhand von vielen geführten Übungen lernst Du diese Sprache praktisch kennen. Am Ende kannst Du ohne große Anstrengung Go Anweisungen schreiben und Go Code verstehen.
+Der Kurs richtet sich an alle, die Go kennen lernen möchten oder Grundlagen in Go benötigen. Dieser Workshop bringt dich auf spielerische Weise soweit, dass Du danach auch an Go Projekten mitarbeiten kannst."
+  }
+</script>
+
+
+    <link href="https://gokurs.github.io/css/styles.css" rel="stylesheet">
+    
+
+  </head>
+
+  <body>
+    
+    
+    
+
+    <header class="l-header">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://gokurs.github.io/">Online Kurse zu Go (Golang)</a>
+          </div>
+
+          
+          <div id="navbar" class="collapse navbar-collapse">
+            
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/kurse">Kurse</a></li>
+              
+              
+            </ul>
+            
+          </div>
+          
+
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        
+<div class="row">
+  <div class="col-md-8">
+
+    <nav class="p-crumb">
+      <ol class="breadcrumb">
+        <li><a href="https://gokurs.github.io/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        
+        <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://gokurs.github.io/kurse/" itemprop="url"><span itemprop="title">kurse</span></a></li>
+        
+        <li class="active">Einführung in Go</li>
+      </ol>
+    </nav>
+
+    <article class="single">
+  <header>
+    <ul class="p-facts">
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2018-03-06T21:56:27JST">Mar 6, 2018</time></li>
+      <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://gokurs.github.io/kurse/">kurse</a></li>
+      
+    </ul>
+
+    <h1 class="title">Einführung in Go</h1>
+  </header>
+
+  
+
+  <div class="article-body">
+
+<h2 id="ein-grundlagen-workshop-für-googles-programmiersprache-go">Ein Grundlagen Workshop für Googles Programmiersprache Go</h2>
+
+<p>Dieser Kurs ist ein spannender Workshop, welcher Dir die Grundlagen von Googles Programmiersprache Go vorstellt. Anhand von vielen geführten Übungen lernst Du diese Sprache praktisch kennen. Am Ende kannst Du ohne große Anstrengung Go Anweisungen schreiben und Go Code verstehen.</p>
+
+<p>Der Kurs richtet sich an alle, die Go kennen lernen möchten oder Grundlagen in Go benötigen. Dieser Workshop bringt dich auf spielerische Weise soweit, dass Du danach auch an Go Projekten mitarbeiten kannst.</p>
+
+<p>Für den Kurs müssen keine Programme installiert werden. Alle Aufgaben und Beispiele sind Online verfügbar.</p>
+
+<h3 id="an-welche-zielgruppe-richtet-sich-dieser-kurs">An welche Zielgruppe richtet sich dieser Kurs?</h3>
+
+<ul>
+<li>Anfänger, welche Programmieren lernen möchten</li>
+<li>Neugierige, die an der Sprache Go interessiert sind</li>
+<li>Alle, die Grundlagen in Go benötigen</li>
+</ul>
+</div>
+
+  <footer class="article-footer">
+    
+    
+    
+    <section class="bordered">
+      <header>
+        <div class="panel-title">KURSE</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          
+          <li><a href="https://gokurs.github.io/kurse/einf%C3%BChrung-in-go/">Einführung in Go</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+    
+    <section class="bordered">
+      <header>
+        <div class="panel-title">TAGS</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          
+          <li><a href="https://gokurs.github.io/tags/golang/">Golang</a></li>
+          
+          <li><a href="https://gokurs.github.io/tags/go/">Go</a></li>
+          
+          <li><a href="https://gokurs.github.io/tags/udemy/">Udemy</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+  </footer>
+
+</article>
+
+
+    
+  </div>
+
+  <div class="col-md-4">
+    
+<aside class="l-sidebar">
+
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">LATESTS</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://gokurs.github.io/kurse/udemy_gokurs01/" class="list-group-item">Einführung in Go</a>
+      
+      <a href="https://gokurs.github.io/kurse/udemy_hugo/" class="list-group-item">Deine kostenlose Homepage mit Hugo und GitHub</a>
+      
+      <a href="https://gokurs.github.io/kurse/einf%C3%BChrung-in-go/" class="list-group-item">Einführung in Go</a>
+      
+      <a href="https://gokurs.github.io/tags/go/" class="list-group-item">Go</a>
+      
+      <a href="https://gokurs.github.io/tags/golang/" class="list-group-item">Golang</a>
+      
+      <a href="https://gokurs.github.io/tags/hugo/" class="list-group-item">Hugo</a>
+      
+      <a href="https://gokurs.github.io/kurse/" class="list-group-item">Kurse</a>
+      
+      <a href="https://gokurs.github.io/kurse/" class="list-group-item">Kurses</a>
+      
+      <a href="https://gokurs.github.io/" class="list-group-item">Online Kurse zu Go (Golang)</a>
+      
+      <a href="https://gokurs.github.io/tags/" class="list-group-item">Tags</a>
+      
+    </div>
+  </section>
+
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">KURSE</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://gokurs.github.io/kurse/einf%C3%BChrung-in-go" class="list-group-item">einführung-in-go</a>
+      
+      <a href="https://gokurs.github.io/kurse/udmey-hugo" class="list-group-item">udmey-hugo</a>
+      
+    </div>
+  </section>
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">TAG</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://gokurs.github.io/tags/udemy" class="list-group-item">udemy</a>
+      
+      <a href="https://gokurs.github.io/tags/go" class="list-group-item">go</a>
+      
+      <a href="https://gokurs.github.io/tags/golang" class="list-group-item">golang</a>
+      
+      <a href="https://gokurs.github.io/tags/hugo" class="list-group-item">hugo</a>
+      
+    </div>
+  </section>
+  
+
+</aside>
+
+
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="container">
+        <p><span class="h-logo">&copy; Online Kurse zu Go (Golang)</span></p>
+        <aside>
+          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
+          <p><a href="https://github.com/dim0627/hugo_theme_beg">Beg</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
+        </aside>
+      </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+

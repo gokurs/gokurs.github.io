@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Udmey Hugo on Online Kurse zu Go (Golang)</title>
+    <link>https://gokurs.github.io/kurse/udmey-hugo/</link>
+    <description>Recent content in Udmey Hugo on Online Kurse zu Go (Golang)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Tue, 06 Mar 2018 21:49:38 +0100</lastBuildDate>
+    
+	<atom:link href="https://gokurs.github.io/kurse/udmey-hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deine kostenlose Homepage mit Hugo und GitHub</title>
+      <link>https://gokurs.github.io/kurse/udemy_hugo/</link>
+      <pubDate>Tue, 06 Mar 2018 21:49:38 +0100</pubDate>
+      
+      <guid>https://gokurs.github.io/kurse/udemy_hugo/</guid>
+      <description>Dieser Kurs</description>
+    </item>
+    
+  </channel>
+</rss>
