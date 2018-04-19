@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kurse on Online Kurse zu Go (Golang)</title>
+    <title>Kurses on Online Kurse zu Go (Golang)</title>
     <link>https://gokurs.github.io/kurse/</link>
-    <description>Recent content in Kurse on Online Kurse zu Go (Golang)</description>
+    <description>Recent content in Kurses on Online Kurse zu Go (Golang)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Tue, 06 Mar 2018 21:56:27 +0100</lastBuildDate>
@@ -13,20 +13,22 @@
     
     <item>
       <title>Einführung in Go</title>
-      <link>https://gokurs.github.io/kurse/einf%C3%BChrung-in-go/</link>
+      <link>https://gokurs.github.io/kurse/udemy_gokurs01/</link>
       <pubDate>Tue, 06 Mar 2018 21:56:27 +0100</pubDate>
       
-      <guid>https://gokurs.github.io/kurse/einf%C3%BChrung-in-go/</guid>
-      <description></description>
+      <guid>https://gokurs.github.io/kurse/udemy_gokurs01/</guid>
+      <description>Ein Grundlagen Workshop für Googles Programmiersprache Go Dieser Kurs ist ein spannender Workshop, welcher Dir die Grundlagen von Googles Programmiersprache Go vorstellt. Anhand von vielen geführten Übungen lernst Du diese Sprache praktisch kennen. Am Ende kannst Du ohne große Anstrengung Go Anweisungen schreiben und Go Code verstehen.
+Der Kurs richtet sich an alle, die Go kennen lernen möchten oder Grundlagen in Go benötigen. Dieser Workshop bringt dich auf spielerische Weise soweit, dass Du danach auch an Go Projekten mitarbeiten kannst.</description>
     </item>
     
     <item>
-      <title>Udmey Hugo</title>
-      <link>https://gokurs.github.io/kurse/udmey-hugo/</link>
+      <title>Deine kostenlose Homepage mit Hugo und GitHub</title>
+      <link>https://gokurs.github.io/kurse/udemy_hugo/</link>
       <pubDate>Tue, 06 Mar 2018 21:49:38 +0100</pubDate>
       
-      <guid>https://gokurs.github.io/kurse/udmey-hugo/</guid>
-      <description></description>
+      <guid>https://gokurs.github.io/kurse/udemy_hugo/</guid>
+      <description>Dieser Udemy Kurs zeigt Dir, wie Du Dir einen kostenlosen Weblog einrichtest und hosten lässt. Dafür bekommst Du alle Grundlagen vermittelt, welche Du benötigst, um möglichst einfach und unkompliziert eine erfolgreiche Webseite zu erstellen. Wenn man den Ablauf einmal verstanden hat, ist die Pflege und Aktualisierung Deiner Seite ein Kinderspiel.
+Kursziele  Am Ende des Kurses kannst Du Webseiten mit dem Programm Hugo erstellen und generieren. Du hast einen GitHub Account eingerichtet.</description>
     </item>
     
   </channel>

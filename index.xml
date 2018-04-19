@@ -6,10 +6,20 @@
     <description>Recent content on Online Kurse zu Go (Golang)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Tue, 06 Mar 2018 21:56:27 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 29 Mar 2018 15:00:35 +0200</lastBuildDate>
     
 	<atom:link href="https://gokurs.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Extrem kritische Sicherheitslücke bei Drupal</title>
+      <link>https://gokurs.github.io/post/2018/01_drupal_sicherheitsluecke/</link>
+      <pubDate>Thu, 29 Mar 2018 15:00:35 +0200</pubDate>
+      
+      <guid>https://gokurs.github.io/post/2018/01_drupal_sicherheitsluecke/</guid>
+      <description>Das dynamische Webseiten wie z.B. Wordpress oder Drupal unsicher und relativ langsam sind habe ich im Kurs bereits besprochen. Wenn man die Nachrichten laufend verfolgt, kann man das sehr gut sehen. Heute zum Beispiel hab ich auf golem.de eine entsprechende Meldung gelesen.
+Bei Drupal wurde eine hochkritische Sicherheitslücke entdeckt. Es ist damit möglich, das beliebige Nutzer Code auf dem System ausführen. Das bedeutet, dass jeder beliebige Programme auf Deinen Server spielen kann.</description>
+    </item>
     
     <item>
       <title>Einführung in Go</title>

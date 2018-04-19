@@ -1,237 +1,202 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.39-DEV" />
 
-  <title>Posts</title>
-  <meta property="og:title" content="Posts" />
-  <meta name="twitter:title" content="Posts" />
-  <meta name="author" content=""/>
-  <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="http://example.org/post/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Meine neue Webseite" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="https://gokurs.github.io/post/index.xml">
 
-  <meta name="generator" content="Hugo 0.36" />
-  <link rel="canonical" href="http://example.org/post/" />
-  <link rel="alternate" href="http://example.org/post/index.xml" type="application/rss+xml" title="Meine neue Webseite">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="http://example.org/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="http://example.org/css/syntax.css" /><link rel="stylesheet" href="http://example.org/css/codeblock.css" />
+<link rel="canonical" href="https://gokurs.github.io/post/">
 
 
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
-
-
-
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-<div class="pswp__bg"></div>
-
-<div class="pswp__scroll-wrap">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>Posts - Online Kurse zu Go (Golang)</title>
     
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
+    <link href="https://gokurs.github.io/css/styles.css" rel="stylesheet">
     
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-      
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
 
-</head>
+  </head>
 
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="http://example.org/">Meine neue Webseite</a>
-    </div>
+    
+    
+    
 
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
+    <header class="l-header">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://gokurs.github.io/">Online Kurse zu Go (Golang)</a>
+          </div>
+
+          
+          <div id="navbar" class="collapse navbar-collapse">
+            
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/kurse">Kurse</a></li>
+              
+              
+            </ul>
+            
+          </div>
+          
+
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
         
-
-        
-
-        
-      </ul>
-    </div>
-
-    <div class="avatar-container">
-      <div class="avatar-img-border">
-        
-      </div>
-    </div>
-
-  </div>
-</nav>
-
-
-
+<div class="row">
+  <div class="col-md-8">
 
     
-  <header class="header-section ">
-    <div class="intro-header no-img">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
-              <h1>Posts</h1>
-              <hr class="small">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <header class="page-header">
+      <h1>Posts</h1>
+    </header>
+    
+
+    <ul class="p-articles">
+      
+      <li><article class="li">
+  <header>
+    <ul class="p-facts">
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2018-03-29T15:00:35JST">Mar 29, 2018</time></li>
+      <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://gokurs.github.io/post/">post</a></li>
+      
+    </ul>
+    <h2 class="title"><a href="https://gokurs.github.io/post/2018/01_drupal_sicherheitsluecke/">Extrem kritische Sicherheitslücke bei Drupal</a></h2>
   </header>
 
+  
+  <div class="summary">Das dynamische Webseiten wie z.B. Wordpress oder Drupal unsicher und relativ langsam sind habe ich im Kurs bereits besprochen. Wenn man die Nachrichten laufend verfolgt, kann man das sehr gut sehen. Heute zum Beispiel hab ich auf golem.de eine entsprechende Meldung gelesen.
+Bei Drupal wurde eine hochkritische Sicherheitslücke entdeckt. Es ist damit möglich, das beliebige Nutzer Code auf dem System ausführen. Das bedeutet, dass jeder beliebige Programme auf Deinen Server spielen kann.</div>
+
+  
+  <footer>
+    <a href="https://gokurs.github.io/post/2018/01_drupal_sicherheitsluecke/" title="Extrem kritische Sicherheitslücke bei Drupal">Read More…</a>
+  </footer>
+  
+</article>
+</li>
+      
+    </ul>
+
     
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-        <div class="posts-list">
-          
-            <article class="post-preview">
-              <a href="http://example.org/post/2018/02/01_erster_post/">
-                <h2 class="post-title">Mein erster Post</h2>
 
-                
-              </a>
 
-              <p class="post-meta">
-                Posted on February 14, 2018
-              </p>
-              <div class="post-entry">
-                
-                  
-
-<h1 id="meine-überschrift">Meine Überschrift</h1>
-
-<h2 id="subtitle">Subtitle</h2>
-
-<p>Hier kommt mein Text. Noch etwas text</p>
-
-<ul>
-<li>Punkt 1</li>
-<li>Punkt 2</li>
-</ul>
-
-<ol>
-<li><em>erster</em> <strong>Punkt</strong></li>
-<li><em>noch</em> <strong>ein</strong> Punkt</li>
-<li>zweiter Punkt</li>
-</ol>
-
-<p>Link zu meinem <a href="http://artikel.de">Artikel</a></p>
-
-<p>Schreibe <code>hugo new post/mein_post.md</code> in den Editor</p>
-
-<blockquote>
-<p>Sein oder nicht sein</p>
-</blockquote>
-
-<pre><code>Mehrere Zeilen Zitat
-</code></pre>
-
-                
-              </div>
-
-              
-
-            </article>
-          
-        </div>
-        
-      </div>
-    </div>
   </div>
+  <div class="col-md-4">
+    
+<aside class="l-sidebar">
 
-    <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links">
-          
-          
-        </ul>
-        <p class="credits copyright text-muted">
-          
-
-          &nbsp;&bull;&nbsp;
-          2018
-
-          
-            &nbsp;&bull;&nbsp;
-            <a href="http://example.org/">Meine neue Webseite</a>
-          
-        </p>
-        
-        <p class="credits theme-by text-muted">
-          <a href="http://gohugo.io">Hugo v0.36</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
-          
-        </p>
-      </div>
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">LATESTS</div>
     </div>
+    <div class="list-group">
+      
+      <a href="https://gokurs.github.io/post/2018/01_drupal_sicherheitsluecke/" class="list-group-item">Extrem kritische Sicherheitslücke bei Drupal</a>
+      
+      <a href="https://gokurs.github.io/kurse/udemy_gokurs01/" class="list-group-item">Einführung in Go</a>
+      
+      <a href="https://gokurs.github.io/kurse/udemy_hugo/" class="list-group-item">Deine kostenlose Homepage mit Hugo und GitHub</a>
+      
+      <a href="https://gokurs.github.io/tags/drupal/" class="list-group-item">Drupal</a>
+      
+      <a href="https://gokurs.github.io/kurse/einf%C3%BChrung-in-go/" class="list-group-item">Einführung in Go</a>
+      
+      <a href="https://gokurs.github.io/tags/github/" class="list-group-item">Github</a>
+      
+      <a href="https://gokurs.github.io/tags/githubpages/" class="list-group-item">Githubpages</a>
+      
+      <a href="https://gokurs.github.io/tags/go/" class="list-group-item">Go</a>
+      
+      <a href="https://gokurs.github.io/tags/golang/" class="list-group-item">Golang</a>
+      
+      <a href="https://gokurs.github.io/tags/hugo/" class="list-group-item">Hugo</a>
+      
+    </div>
+  </section>
+
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">KURSE</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://gokurs.github.io/kurse/udemy-hugo" class="list-group-item">udemy-hugo</a>
+      
+      <a href="https://gokurs.github.io/kurse/einf%C3%BChrung-in-go" class="list-group-item">einführung-in-go</a>
+      
+    </div>
+  </section>
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">TAG</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://gokurs.github.io/tags/udemy" class="list-group-item">udemy</a>
+      
+      <a href="https://gokurs.github.io/tags/drupal" class="list-group-item">drupal</a>
+      
+      <a href="https://gokurs.github.io/tags/github" class="list-group-item">github</a>
+      
+      <a href="https://gokurs.github.io/tags/githubpages" class="list-group-item">githubpages</a>
+      
+      <a href="https://gokurs.github.io/tags/go" class="list-group-item">go</a>
+      
+      <a href="https://gokurs.github.io/tags/golang" class="list-group-item">golang</a>
+      
+      <a href="https://gokurs.github.io/tags/hugo" class="list-group-item">hugo</a>
+      
+      <a href="https://gokurs.github.io/tags/link" class="list-group-item">link</a>
+      
+      <a href="https://gokurs.github.io/tags/sicherheit" class="list-group-item">sicherheit</a>
+      
+    </div>
+  </section>
+  
+
+</aside>
+
+
   </div>
-</footer>
+</div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="http://example.org/js/main.js"></script><script> renderMathInElement(document.body); </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
-<script src="http://example.org/js/load-photoswipe.js"></script>
+      </div>
+    </main>
 
+    <footer class="l-footer">
+      <div class="container">
+        <p><span class="h-logo">&copy; Online Kurse zu Go (Golang)</span></p>
+        <aside>
+          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
+          <p><a href="https://github.com/dim0627/hugo_theme_beg">Beg</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
+        </aside>
+      </div>
+    </footer>
 
-
-
-
-
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
 

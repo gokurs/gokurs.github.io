@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Online Kurse zu Go (Golang)</title>
-    <link>https://gokurs.github.io/post/</link>
-    <description>Recent content in Posts on Online Kurse zu Go (Golang)</description>
+    <title>Udemy Hugo on Online Kurse zu Go (Golang)</title>
+    <link>https://gokurs.github.io/kurse/udemy-hugo/</link>
+    <description>Recent content in Udemy Hugo on Online Kurse zu Go (Golang)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Thu, 29 Mar 2018 15:00:35 +0200</lastBuildDate>
     
-	<atom:link href="https://gokurs.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gokurs.github.io/kurse/udemy-hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,6 +19,16 @@
       <guid>https://gokurs.github.io/post/2018/01_drupal_sicherheitsluecke/</guid>
       <description>Das dynamische Webseiten wie z.B. Wordpress oder Drupal unsicher und relativ langsam sind habe ich im Kurs bereits besprochen. Wenn man die Nachrichten laufend verfolgt, kann man das sehr gut sehen. Heute zum Beispiel hab ich auf golem.de eine entsprechende Meldung gelesen.
 Bei Drupal wurde eine hochkritische Sicherheitslücke entdeckt. Es ist damit möglich, das beliebige Nutzer Code auf dem System ausführen. Das bedeutet, dass jeder beliebige Programme auf Deinen Server spielen kann.</description>
+    </item>
+    
+    <item>
+      <title>Deine kostenlose Homepage mit Hugo und GitHub</title>
+      <link>https://gokurs.github.io/kurse/udemy_hugo/</link>
+      <pubDate>Tue, 06 Mar 2018 21:49:38 +0100</pubDate>
+      
+      <guid>https://gokurs.github.io/kurse/udemy_hugo/</guid>
+      <description>Dieser Udemy Kurs zeigt Dir, wie Du Dir einen kostenlosen Weblog einrichtest und hosten lässt. Dafür bekommst Du alle Grundlagen vermittelt, welche Du benötigst, um möglichst einfach und unkompliziert eine erfolgreiche Webseite zu erstellen. Wenn man den Ablauf einmal verstanden hat, ist die Pflege und Aktualisierung Deiner Seite ein Kinderspiel.
+Kursziele  Am Ende des Kurses kannst Du Webseiten mit dem Programm Hugo erstellen und generieren. Du hast einen GitHub Account eingerichtet.</description>
     </item>
     
   </channel>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gokurs.github.io/post/2018/01_drupal_sicherheitsluecke/</loc>
+    <lastmod>2018-03-29T15:00:35+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gokurs.github.io/kurse/udemy_gokurs01/</loc>
     <lastmod>2018-03-06T21:56:27+01:00</lastmod>
   </url>
@@ -10,6 +15,12 @@
   <url>
     <loc>https://gokurs.github.io/kurse/udemy_hugo/</loc>
     <lastmod>2018-03-06T21:49:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokurs.github.io/tags/drupal/</loc>
+    <lastmod>2018-03-29T15:00:35+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -61,14 +72,32 @@
   </url>
   
   <url>
+    <loc>https://gokurs.github.io/tags/link/</loc>
+    <lastmod>2018-03-29T15:00:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://gokurs.github.io/</loc>
-    <lastmod>2018-03-06T21:56:27+01:00</lastmod>
+    <lastmod>2018-03-29T15:00:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gokurs.github.io/post/</loc>
+    <lastmod>2018-03-29T15:00:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gokurs.github.io/tags/sicherheit/</loc>
+    <lastmod>2018-03-29T15:00:35+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gokurs.github.io/tags/</loc>
-    <lastmod>2018-03-06T21:49:38+01:00</lastmod>
+    <lastmod>2018-03-29T15:00:35+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -79,8 +108,8 @@
   </url>
   
   <url>
-    <loc>https://gokurs.github.io/kurse/udmey-hugo/</loc>
-    <lastmod>2018-03-06T21:49:38+01:00</lastmod>
+    <loc>https://gokurs.github.io/kurse/udemy-hugo/</loc>
+    <lastmod>2018-03-29T15:00:35+02:00</lastmod>
     <priority>0</priority>
   </url>
   
